@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/blaze_rod"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "terrariatools:item/rod_of_discord" },
+    { "predicate": { "custom_model_data": 2 }, "model": "terrariatools:item/momentum_capacitor" },
+    { "predicate": { "custom_model_data": 3 }, "model": "terrariatools:item/cosmolight" },
+    { "predicate": { "custom_model_data": 4 }, "model": "terrariatools:item/daedalus_stormbow" }
+  ]
+}
